@@ -8,7 +8,7 @@ on:
 
 jobs:
   integration:
-    uses: ./.github/workflows/django.yml
+    uses: ./.github/workflows/docker-image.yml
     permissions:
       contents: read
       checks: write
